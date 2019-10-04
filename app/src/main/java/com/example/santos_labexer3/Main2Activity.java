@@ -58,6 +58,44 @@ public class Main2Activity extends AppCompatActivity {
 
         Toast.makeText(this, data, Toast.LENGTH_LONG).show();
 
+    }
+    public void confirmed(View v){
+        String data ="";
+        String add = "";
+        if (cb1.isChecked()== true){
+            add = cb1.getText().toString();
+            data = data +", "+ add;
+        }else {}
 
+        if (cb2.isChecked()== true){
+            add = cb2.getText().toString();
+            data = data +", "+ add;
+        }else{}
+        if (cb3.isChecked()== true){
+            add = cb3.getText().toString();
+            data = data +", "+ add;
+        }else{}
+        if (cb4.isChecked()== true){
+            add = cb4.getText().toString();
+            data = data +", "+ add;
+        }else{}
+        if (cb5.isChecked()== true){
+            add = cb5.getText().toString();
+            data = data +", "+ add;
+        }else{}
+        if (cb6.isChecked()== true){
+            add = cb6.getText().toString();
+            data = data +", "+ add;
+        }else{}
+        if (cb7.isChecked()== true){
+            add = cb7.getText().toString();
+            data = data +", "+ add;
+        }else{}
+        if (cb8.isChecked()== true){
+            add = cb8.getText().toString();
+            data = data +", "+ add;
+        }else{}
+
+        Toast.makeText(this, "Courses Taken " + data+ "...", Toast.LENGTH_LONG).show();
     }
 }
